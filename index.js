@@ -71,7 +71,8 @@ openImage.addEventListener("click", () => {
   var audio = new Audio("bg-song.mp3");
   audio.play();
   container.style.display = "none";
-  cont.style.display = "flex";
+  slideContainer.style.visibility = "visible";
+  cont.style.visibility = "visible";
 });
 
 startSlide();
