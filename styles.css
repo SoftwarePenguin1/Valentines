@@ -34,17 +34,15 @@ h1 {
 /* Slider Styles */
 
 .cont {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
-  visibility: hidden;
   text-align: center;
   margin-top: 3rem;
   color: purple;
 }
 
 .slide-container {
-  visibility: hidden;
   margin: 2rem auto;
   width: 100%;
   height: 400px;

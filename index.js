@@ -68,9 +68,10 @@ slideContainer.addEventListener("mouseleave", startSlide);
 
 openImage.addEventListener("click", () => {
   console.log("clicked");
+  var audio = new Audio("bg-song.mp3");
+  audio.play();
   container.style.display = "none";
-  slideContainer.style.visibility = "visible";
-  cont.style.visibility = "visible";
+  cont.style.display = "flex";
 });
 
 startSlide();
