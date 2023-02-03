@@ -3,6 +3,7 @@ const openImage = document.querySelector(".butn");
 const container = document.querySelector(".container");
 const cont = document.querySelector(".cont");
 const slide = document.querySelector(".slides");
+const bd = document.body;
 const interval = 3000;
 
 let slides = document.querySelectorAll(".slide");
@@ -70,6 +71,7 @@ openImage.addEventListener("click", () => {
   console.log("clicked");
   var audio = new Audio("bg-song.mp3");
   audio.play();
+  bd.style.overflow = "visible";
   container.style.display = "none";
   slideContainer.style.visibility = "visible";
   cont.style.visibility = "visible";
